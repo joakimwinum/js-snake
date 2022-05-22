@@ -10,11 +10,15 @@ During the game, a developer mode can be activated that contains additional test
 
 The PHP version of the game can be found [here](https://github.com/joakimwinum/php-snake).
 
-## Getting Started
+## Usage
 
-Run the game
+Start the web server in a CLI:
 
-Open ```index.html``` in a modern web browser
+```console
+docker run --name javascript-snake -d -p 8080:80 joakimwinum/javascript-snake
+```
+
+Open http://localhost:8080/ in a modern web browser
 
 ## Authors
 
@@ -22,4 +26,4 @@ Open ```index.html``` in a modern web browser
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/javascript-snake/blob/main/LICENSE) file for details
