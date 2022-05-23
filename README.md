@@ -15,7 +15,7 @@ The PHP version of the game can be found [here](https://github.com/joakimwinum/p
 Start the web server in a CLI:
 
 ```console
-docker run --name javascript-snake -d -p 8080:80 joakimwinum/javascript-snake
+docker run --rm --name javascript-snake -p 8080:80 joakimwinum/javascript-snake
 ```
 
 Open http://localhost:8080/ in a modern web browser
