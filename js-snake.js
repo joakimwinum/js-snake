@@ -1,5 +1,5 @@
 /*!
- * JavaScript Snake
+ * JS Snake
  *
  * This is an implementation of the classic snake game.
  *
@@ -32,9 +32,9 @@
  * Author: Joakim Winum Lien <joakim@winum.xyz>
  * License: https://opensource.org/licenses/mit-license.html MIT License
  * Version: 1.0.0
- * Repository: https://github.com/joakimwinum/javascript-snake
+ * Repository: https://github.com/joakimwinum/js-snake
  */
-function javascriptSnake() {
+function jsSnake() {
     class FpsEngine {
         constructor() {
             this._initialFps = 16;
@@ -149,7 +149,7 @@ function javascriptSnake() {
     var totalNumberOfFrames = 0;
     var increaseInterval = 1;
     var lockInput = 0;
-    var globalGameTitle = snakeSprite+" JavaScript Snake "+rightPointingTriangleSprite;
+    var globalGameTitle = snakeSprite+" JS Snake "+rightPointingTriangleSprite;
     var key;
     var leftMargin = "&nbsp;";
     var screen = "";
@@ -417,10 +417,10 @@ function javascriptSnake() {
         screen += board;
 
         // clear the screen and print the screen
-        document.getElementById('javascript-snake-frame').innerHTML = screen;
+        document.getElementById('js-snake-frame').innerHTML = screen;
 
         // display the score in the console
-        var consoleLog = "JavaScript Snake Score: "+padScore;
+        var consoleLog = "JS Snake Score: "+padScore;
         consoleLog = devMode ? consoleLog+" [DevMode]" : consoleLog;
         console.log(consoleLog);
 
@@ -631,7 +631,7 @@ function javascriptSnake() {
 
             // clear the screen and print the screen
             if (gameIsOver === false) {
-                document.getElementById('javascript-snake-frame').innerHTML = screen;
+                document.getElementById('js-snake-frame').innerHTML = screen;
             }
 
             // perform key actions
@@ -656,4 +656,4 @@ function javascriptSnake() {
     }
     gameLoop(); // game loop init
 }
-javascriptSnake();
+jsSnake();

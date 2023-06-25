@@ -1,4 +1,4 @@
-# JavaScript Snake
+# JS Snake
 
 This is a JavaScript game, ported from PHP.
 
@@ -15,7 +15,7 @@ The PHP version of the game can be found [here](https://github.com/joakimwinum/p
 Start the web server in a CLI:
 
 ```console
-docker run --rm --name javascript-snake -p 8080:80 joakimwinum/javascript-snake
+docker run --rm --name js-snake -p 8080:80 joakimwinum/js-snake
 ```
 
 Open http://localhost:8080/ in a modern web browser
@@ -26,4 +26,4 @@ Open http://localhost:8080/ in a modern web browser
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/javascript-snake/blob/main/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/js-snake/blob/main/LICENSE) file for details
